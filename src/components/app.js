@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './navbar';
 import Profile from './profile';
+import Footer from './footer';
 
 export default class App extends Component {
   render() {
@@ -14,9 +15,8 @@ export default class App extends Component {
           <Profile/>
           <Profile/>
           <Profile/>
-          
-        </div>
-       
+          </div>
+        <Footer/>
       </div>
     );
   }

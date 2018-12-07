@@ -1,7 +1,13 @@
-@import 'profile-card';
-@import 'footer';
+.footer-buttons {
+    justify-items: center;
+    justify-content: center;
+    grid-column: 2/4;
+    
+}
 
-.navbar {
+
+
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -9,28 +15,18 @@
     text-align: center;
     height: 150px;
 
-    .logo {
+    .footer-logo {
         grid-column: 1/2;
         border: 2px solid black;
         height: 50px;
         width: 100px;
         margin-left: 155px;
-    }
-
-    h1 {
-        grid-column: 2/3;
-    }
+        margin-top: 45px;
     
+    }
 }
 
-.nav-buttons {
-    justify-items: center;
-    justify-content: center;
-    grid-column: 2/4;
-    
-}
-
-.nav-button {
+.footer-button {
     background-color: white;
     box-shadow: 1px 1px 2px 2px;
     width: 150px;
@@ -38,5 +34,4 @@
     padding: 5px;
     margin: 0px 20px 0px 20px;
 }
-
 
