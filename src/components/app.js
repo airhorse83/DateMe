@@ -7,10 +7,16 @@ export default class App extends Component {
     return (
       <div className='app'>
         <Navbar/>
-        <Profile/>
-        <Profile/>
-        <Profile/>
-        <Profile/>
+        <div className='profile-card'>
+          <Profile/>
+          <Profile/>
+          <Profile/>
+          <Profile/>
+          <Profile/>
+          <Profile/>
+          
+        </div>
+       
       </div>
     );
   }
